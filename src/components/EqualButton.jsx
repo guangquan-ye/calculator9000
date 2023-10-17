@@ -1,7 +1,7 @@
 export default function EqualButton(props) {
 
   return (
-    <button onClick={()=>props.handleClick(props.equal)}>{props.equal}</button>
+    <button className="equal-button" onClick={()=>props.handleClick(props.equal)}>{props.equal}</button>
 
   )
   

@@ -8,8 +8,7 @@ function App() {
     <>
       
       <div className="big-title">
-        <Title title= "Calculator9000" />
-        <Title text = "This is a calculator" />     
+        <Title title= "Calculator 9000" />    
       </div>
       <Calculator />
     
