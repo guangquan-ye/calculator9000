@@ -5,14 +5,14 @@ import Calculator from './components/Calculator'
 function App() {
   
   return (
-    <>
+    <div>
       
       <div className="big-title">
         <Title title= "Calculator 9000" />    
       </div>
       <Calculator />
     
-    </>
+    </div>
   )
 }
 

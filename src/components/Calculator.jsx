@@ -8,7 +8,7 @@ import EasterEgg from './EasterEgg';
 
 export default function Calculator() {
     const [operation, setOperation] = useState('');
-    const [showModal, setShowModal] = useState(false); // State for controlling the modal
+    const [showModal, setShowModal] = useState(false);
 
 
     const handleButtonClick = (value) => {
@@ -32,7 +32,7 @@ export default function Calculator() {
             if (calculatedResult > 9000) {
                 setShowModal(true);
             } else {
-                setShowModal(false); // Hide the modal
+                setShowModal(false); 
             }
         } catch (error) {
             setOperation('Error');
@@ -54,7 +54,7 @@ export default function Calculator() {
             </div>
 
             <div className="calculator-buttons">
-                <p className='brand'>Hermet Picard</p>
+                <p className='brand'>Helmet Picard</p>
                 <div className="number-buttons">
                     <button onClick={clear} className='button-reset'>AC</button>
                     <button onClick={eraseLast}>←</button>
